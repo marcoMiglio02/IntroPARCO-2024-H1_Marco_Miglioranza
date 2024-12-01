@@ -1,7 +1,8 @@
 # **High Performance Matrix Operations: OpenMP and SIMD Implementation**
 
 ## **Overview**
-This repository contains a comprehensive report detailing the implementation and optimization of **matrix transposition** and **symmetry verification** using OpenMP and SIMD techniques. The goal of the project was to enhance the performance of these fundamental operations, which are widely used in scientific computing, by leveraging modern parallel computing techniques. Significant speedup and efficiency improvements were achieved for both small and large matrices.
+The report will seek to do the implementation and optimization for both the matrix transposition and symmetry checking using OpenMP and Single Instruction Multiple Data. These are considered to be valuable contributions toward accelerating such low-level operations with modern, parallel computing techniques. There has been a great deal of improvement in speed up and efficiency realized in the work of this kind - the use of small and big matrices.
+It gives an overview of the importance of matrix transposition and symmetry verification in scientific computing, giving reasons for performance with parallelization.
 
 ---
 
@@ -56,3 +57,13 @@ Run the following commands to compile the source code:
 ```bash
 # Compile the OpenMP implementation
 g++ -O2 -march=native -ffast-math -fopenmp -funroll-loops -o matrix_operations matrix_operations.cpp
+Dependencies
+
+Ensure the g++ compiler supports OpenMP.
+AVX-512 or AVX2 support is recommended for optimal performance.
+
+### **Conclusion**
+
+This project demonstrated that significant performance improvements can be achieved in matrix transposition and symmetry verification using parallel computing techniques. While OpenMP excelled in handling large matrices due to its scalability and multi-threading capabilities, SIMD optimizations provided a lightweight and efficient solution for smaller matrices.
+
+For more details on performance analysis, please refer to the full report available in this repository.
