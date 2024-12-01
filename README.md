@@ -62,12 +62,12 @@ Dependencies
 Ensure the g++ compiler supports OpenMP.
 AVX-512 or AVX2 support is recommended for optimal performance.
 
-# Esegui il programma compilato
+### Esegui il programma compilato
 ```bash
 ./es
 ```
 
-### **Conclusion**
+# **Conclusion**
 
 This project demonstrated that significant performance improvements can be achieved in matrix transposition and symmetry verification using parallel computing techniques. While OpenMP excelled in handling large matrices due to its scalability and multi-threading capabilities, SIMD optimizations provided a lightweight and efficient solution for smaller matrices.
 
