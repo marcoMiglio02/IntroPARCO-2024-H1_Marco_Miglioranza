@@ -55,11 +55,18 @@ Run the following commands to compile the source code:
 ```bash
 #clone the repo
 git clone https://github.com/marcoMiglio02/IntroPARCO-2024-H1_Marco_Miglioranza.git
-#unzip the file and go to the code directory with cd IntroPARCO-2024-H1_Marco_Miglioranza/report/code
+```
+
+Go inside the directory code:
+```bash
+cd IntroPARCO-2024-H1_Marco_Miglioranza\report\code
+```
+```bash
 # Compile the OpenMP implementation
 g++ -O2 -march=native -ffast-math -fopenmp -funroll-loops -o es es.cpp
-Dependencies
 ```
+Dependencies
+
 Ensure the g++ compiler supports OpenMP.
 AVX-512 or AVX2 support is recommended for optimal performance.
 
