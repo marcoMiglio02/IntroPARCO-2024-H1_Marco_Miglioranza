@@ -8,7 +8,7 @@ It gives an overview of the importance of matrix transposition and symmetry veri
 
 ## **Contents**
 1. **Introduction**  
-   Provides an overview of the importance of matrix transposition and symmetry verification in scientific computing, highlighting the performance benefits of parallelization.
+Matrix transposition is crucial in robotics, mathematics, physics, scientific computing, machine learning, and data processing. It's essential in high-performance computing environments, where optimization can significantly improve execution time and resource usage. This project aims to design and implement three methods of matrix transpose and symmetry verification using OpenMP, identify performance bottlenecks, and determine the best technique for the project problem..
 
 2. **Methodology**  
    Describes the computational environment and tools used:
@@ -35,8 +35,7 @@ It gives an overview of the importance of matrix transposition and symmetry veri
    Compares execution times for sequential, SIMD, and OpenMP implementations across a range of matrix sizes.  
    Includes speedup graphs, efficiency metrics, and bottleneck analysis.
 
-6. **Key Findings**  
-   Highlights the complementary strengths of OpenMP and SIMD techniques, as well as their limitations, including scalability and memory bottlenecks.
+
 
 ---
 
