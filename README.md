@@ -56,11 +56,16 @@ Run the following commands to compile the source code:
 
 ```bash
 # Compile the OpenMP implementation
-g++ -O2 -march=native -ffast-math -fopenmp -funroll-loops -o matrix_operations matrix_operations.cpp
+g++ -O2 -march=native -ffast-math -fopenmp -funroll-loops -o es es.cpp
 Dependencies
-
+```
 Ensure the g++ compiler supports OpenMP.
 AVX-512 or AVX2 support is recommended for optimal performance.
+
+# Esegui il programma compilato
+```bash
+./es
+```
 
 ### **Conclusion**
 
