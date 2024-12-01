@@ -59,7 +59,7 @@ git clone https://github.com/marcoMiglio02/IntroPARCO-2024-H1_Marco_Miglioranza.
 
 Go inside the directory code:
 ```bash
-cd IntroPARCO-2024-H1_Marco_Miglioranza\report\code
+cd IntroPARCO-2024-H1_Marco_Miglioranza/report/code
 ```
 ```bash
 # Compile the OpenMP implementation
