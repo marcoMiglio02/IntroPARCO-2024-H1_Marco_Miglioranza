@@ -1,0 +1,330 @@
+4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix (from 16 to 4096): Insert the size of the matrix
+^C[marco.miglioranza@hpc-c11-node24 H1]$ clear
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.182898s
+Improved Transpose: 0.0253733s
+OpenMP Transpose: 0.121725s
+Basic Check Symmetry: 0.140675s and the result is: 1
+Implicit Check Symmetry: 0.0385135s and the result is: 1
+OpenMP Check Symmetry: 0.0690583s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.182057s
+Improved Transpose: 0.0251682s
+OpenMP Transpose: 0.100191s
+Basic Check Symmetry: 0.108873s and the result is: 1
+Implicit Check Symmetry: 0.0179205s and the result is: 1
+OpenMP Check Symmetry: 0.0490313s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.181809s
+Improved Transpose: 0.0253859s
+OpenMP Transpose: 0.100267s
+Basic Check Symmetry: 0.109625s and the result is: 1
+Implicit Check Symmetry: 0.0179947s and the result is: 1
+OpenMP Check Symmetry: 0.0493808s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.183643s
+Improved Transpose: 0.0252913s
+OpenMP Transpose: 0.100253s
+Basic Check Symmetry: 0.108992s and the result is: 1
+Implicit Check Symmetry: 0.0180647s and the result is: 1
+OpenMP Check Symmetry: 0.0493708s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.181102s
+Improved Transpose: 0.0251208s
+OpenMP Transpose: 0.100006s
+Basic Check Symmetry: 0.108985s and the result is: 1
+Implicit Check Symmetry: 0.0180388s and the result is: 1
+OpenMP Check Symmetry: 0.0490701s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ g++ -O2 -march=native -funroll-loops -ffast-math -fopenmp -o es es.cpp
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.182762s
+Improved Transpose: 0.0249588s
+OpenMP Transpose: 0.0502777s
+Basic Check Symmetry: 0.109646s and the result is: 1
+Implicit Check Symmetry: 0.0179451s and the result is: 1
+OpenMP Check Symmetry: 0.0405197s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.181975s
+Improved Transpose: 0.0251836s
+OpenMP Transpose: 0.0505231s
+Basic Check Symmetry: 0.109149s and the result is: 1
+Implicit Check Symmetry: 0.0179061s and the result is: 1
+OpenMP Check Symmetry: 0.0404643s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.182919s
+Improved Transpose: 0.0253068s
+OpenMP Transpose: 0.0500661s
+Basic Check Symmetry: 0.108922s and the result is: 1
+Implicit Check Symmetry: 0.0180017s and the result is: 1
+OpenMP Check Symmetry: 0.0403317s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.183101s
+Improved Transpose: 0.0253709s
+OpenMP Transpose: 0.0503397s
+Basic Check Symmetry: 0.109238s and the result is: 1
+Implicit Check Symmetry: 0.0179122s and the result is: 1
+OpenMP Check Symmetry: 0.0404431s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.18164s
+Improved Transpose: 0.0250079s
+OpenMP Transpose: 0.0503849s
+Basic Check Symmetry: 0.109353s and the result is: 1
+Implicit Check Symmetry: 0.0180282s and the result is: 1
+OpenMP Check Symmetry: 0.0404092s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ g++ -O2 -march=native -funroll-loops -ffast-math -fopenmp -o es es.cpp
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.184562s
+Improved Transpose: 0.0250046s
+OpenMP Transpose: 0.0379435s
+Basic Check Symmetry: 0.114734s and the result is: 1
+Implicit Check Symmetry: 0.0181229s and the result is: 1
+OpenMP Check Symmetry: 0.0242324s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.182371s
+Improved Transpose: 0.025022s
+OpenMP Transpose: 0.0378291s
+Basic Check Symmetry: 0.116946s and the result is: 1
+Implicit Check Symmetry: 0.0181633s and the result is: 1
+OpenMP Check Symmetry: 0.0239247s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.182944s
+Improved Transpose: 0.0250594s
+OpenMP Transpose: 0.0380187s
+Basic Check Symmetry: 0.116964s and the result is: 1
+Implicit Check Symmetry: 0.0181824s and the result is: 1
+OpenMP Check Symmetry: 0.0240489s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.184184s
+Improved Transpose: 0.0250801s
+OpenMP Transpose: 0.037984s
+Basic Check Symmetry: 0.116415s and the result is: 1
+Implicit Check Symmetry: 0.0182399s and the result is: 1
+OpenMP Check Symmetry: 0.0240888s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.182385s
+Improved Transpose: 0.0249458s
+OpenMP Transpose: 0.038571s
+Basic Check Symmetry: 0.116051s and the result is: 1
+Implicit Check Symmetry: 0.018154s and the result is: 1
+OpenMP Check Symmetry: 0.023879s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ g++ -O2 -march=native -funroll-loops -ffast-math -fopenmp -o es es.cpp
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.185325s
+Improved Transpose: 0.0252228s
+OpenMP Transpose: 0.0111409s
+Basic Check Symmetry: 0.117874s and the result is: 1
+Implicit Check Symmetry: 0.0182958s and the result is: 1
+OpenMP Check Symmetry: 0.006899s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.183033s
+Improved Transpose: 0.0253269s
+OpenMP Transpose: 0.011158s
+Basic Check Symmetry: 0.117115s and the result is: 1
+Implicit Check Symmetry: 0.0182416s and the result is: 1
+OpenMP Check Symmetry: 0.00708187s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.183102s
+Improved Transpose: 0.025299s
+OpenMP Transpose: 0.0109888s
+Basic Check Symmetry: 0.116639s and the result is: 1
+Implicit Check Symmetry: 0.0183082s and the result is: 1
+OpenMP Check Symmetry: 0.00693976s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.184815s
+Improved Transpose: 0.025503s
+OpenMP Transpose: 0.0112333s
+Basic Check Symmetry: 0.117513s and the result is: 1
+Implicit Check Symmetry: 0.0183485s and the result is: 1
+OpenMP Check Symmetry: 0.00695628s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.184163s
+Improved Transpose: 0.0250287s
+OpenMP Transpose: 0.0112373s
+Basic Check Symmetry: 0.117452s and the result is: 1
+Implicit Check Symmetry: 0.0183266s and the result is: 1
+OpenMP Check Symmetry: 0.00731235s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ g++ -O2 -march=native -funroll-loops -ffast-math -fopenmp -o es es.cpp
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.18441s
+Improved Transpose: 0.0249816s
+OpenMP Transpose: 0.0080473s
+Basic Check Symmetry: 0.117873s and the result is: 1
+Implicit Check Symmetry: 0.0183196s and the result is: 1
+OpenMP Check Symmetry: 0.00447393s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.183917s
+Improved Transpose: 0.0251991s
+OpenMP Transpose: 0.00789383s
+Basic Check Symmetry: 0.118325s and the result is: 1
+Implicit Check Symmetry: 0.0186255s and the result is: 1
+OpenMP Check Symmetry: 0.00463079s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.182522s
+Improved Transpose: 0.0248403s
+OpenMP Transpose: 0.00808161s
+Basic Check Symmetry: 0.118469s and the result is: 1
+Implicit Check Symmetry: 0.0182661s and the result is: 1
+OpenMP Check Symmetry: 0.00486143s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.183724s
+Improved Transpose: 0.024899s
+OpenMP Transpose: 0.00830533s
+Basic Check Symmetry: 0.117413s and the result is: 1
+Implicit Check Symmetry: 0.0180994s and the result is: 1
+OpenMP Check Symmetry: 0.00466396s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.183093s
+Improved Transpose: 0.0255731s
+OpenMP Transpose: 0.00799177s
+Basic Check Symmetry: 0.117863s and the result is: 1
+Implicit Check Symmetry: 0.01836s and the result is: 1
+OpenMP Check Symmetry: 0.0048553s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ g++ -O2 -march=native -funroll-loops -ffast-math -fopenmp -o es es.cpp
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.183115s
+Improved Transpose: 0.0250094s
+OpenMP Transpose: 0.0162649s
+Basic Check Symmetry: 0.118191s and the result is: 1
+Implicit Check Symmetry: 0.0185471s and the result is: 1
+OpenMP Check Symmetry: 0.00661556s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.182952s
+Improved Transpose: 0.0249552s
+OpenMP Transpose: 0.017587s
+Basic Check Symmetry: 0.117734s and the result is: 1
+Implicit Check Symmetry: 0.0181775s and the result is: 1
+OpenMP Check Symmetry: 0.0067788s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.183444s
+Improved Transpose: 0.0254364s
+OpenMP Transpose: 0.023242s
+Basic Check Symmetry: 0.11785s and the result is: 1
+Implicit Check Symmetry: 0.0181537s and the result is: 1
+OpenMP Check Symmetry: 0.0115833s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.183696s
+Improved Transpose: 0.02519s
+OpenMP Transpose: 0.0152431s
+Basic Check Symmetry: 0.118784s and the result is: 1
+Implicit Check Symmetry: 0.0183634s and the result is: 1
+OpenMP Check Symmetry: 0.00652267s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.186112s
+Improved Transpose: 0.0255108s
+OpenMP Transpose: 0.0161944s
+Basic Check Symmetry: 0.122366s and the result is: 1
+Implicit Check Symmetry: 0.0185015s and the result is: 1
+OpenMP Check Symmetry: 0.0115358s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ g++ -O2 -march=native -funroll-loops -ffast-math -fopenmp -o es es.cpp
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.184043s
+Improved Transpose: 0.0253781s
+OpenMP Transpose: 0.010175s
+Basic Check Symmetry: 0.113969s and the result is: 1
+Implicit Check Symmetry: 0.0182865s and the result is: 1
+OpenMP Check Symmetry: 0.0032801s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.185894s
+Improved Transpose: 0.0251801s
+OpenMP Transpose: 0.0111126s
+Basic Check Symmetry: 0.115068s and the result is: 1
+Implicit Check Symmetry: 0.0183822s and the result is: 1
+OpenMP Check Symmetry: 0.00297252s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.184942s
+Improved Transpose: 0.0253527s
+OpenMP Transpose: 0.0107431s
+Basic Check Symmetry: 0.112834s and the result is: 1
+Implicit Check Symmetry: 0.0182081s and the result is: 1
+OpenMP Check Symmetry: 0.0033361s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.18503s
+Improved Transpose: 0.0249303s
+OpenMP Transpose: 0.0104142s
+Basic Check Symmetry: 0.142151s and the result is: 1
+Implicit Check Symmetry: 0.0350955s and the result is: 1
+OpenMP Check Symmetry: 0.00511472s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.183644s
+Improved Transpose: 0.0249514s
+OpenMP Transpose: 0.00983639s
+Basic Check Symmetry: 0.115388s and the result is: 1
+Implicit Check Symmetry: 0.0184964s and the result is: 1
+OpenMP Check Symmetry: 0.00391863s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ g++ -O2 -march=native -funroll-loops -ffast-math -fopenmp -o es es.cpp
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.185745s
+Improved Transpose: 0.0247415s
+OpenMP Transpose: 0.0154573s
+Basic Check Symmetry: 0.116945s and the result is: 1
+Implicit Check Symmetry: 0.0184983s and the result is: 1
+OpenMP Check Symmetry: 0.00405454s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.181374s
+Improved Transpose: 0.0246975s
+OpenMP Transpose: 0.0117168s
+Basic Check Symmetry: 0.138535s and the result is: 1
+Implicit Check Symmetry: 0.0344487s and the result is: 1
+OpenMP Check Symmetry: 0.00689202s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.184379s
+Improved Transpose: 0.0248436s
+OpenMP Transpose: 0.0118213s
+Basic Check Symmetry: 0.122126s and the result is: 1
+Implicit Check Symmetry: 0.0189497s and the result is: 1
+OpenMP Check Symmetry: 0.00413296s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.184918s
+Improved Transpose: 0.0250116s
+OpenMP Transpose: 0.0116508s
+Basic Check Symmetry: 0.118365s and the result is: 1
+Implicit Check Symmetry: 0.0189569s and the result is: 1
+OpenMP Check Symmetry: 0.00411796s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$ ./es
+Insert the size of the matrix (from 16 to 4096): 4096
+Basic Transpose: 0.188906s
+Improved Transpose: 0.0251852s
+OpenMP Transpose: 0.0150316s
+Basic Check Symmetry: 0.123206s and the result is: 1
+Implicit Check Symmetry: 0.0191715s and the result is: 1
+OpenMP Check Symmetry: 0.0043008s and the result is: 1
+[marco.miglioranza@hpc-c11-node24 H1]$
