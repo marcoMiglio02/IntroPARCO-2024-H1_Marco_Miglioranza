@@ -52,8 +52,10 @@ Matrix transposition is crucial in robotics, mathematics, physics, scientific co
 ### **Compilation**
 The project supports compilation with the GNU Compiler Collection (`g++`) and requires OpenMP support.  
 Run the following commands to compile the source code:
-
 ```bash
+#clone the repo
+git clone https://github.com/marcoMiglio02/IntroPARCO-2024-H1_Marco_Miglioranza.git
+#unzip the file and go to the code directory with cd IntroPARCO-2024-H1_Marco_Miglioranza/report/code
 # Compile the OpenMP implementation
 g++ -O2 -march=native -ffast-math -fopenmp -funroll-loops -o es es.cpp
 Dependencies
