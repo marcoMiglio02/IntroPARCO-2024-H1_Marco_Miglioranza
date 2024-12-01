@@ -62,7 +62,7 @@ Dependencies
 Ensure the g++ compiler supports OpenMP.
 AVX-512 or AVX2 support is recommended for optimal performance.
 
-### Esegui il programma compilato
+### Execute
 ```bash
 ./es
 ```
